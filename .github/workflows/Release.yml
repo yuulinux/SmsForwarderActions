@@ -9,11 +9,7 @@ on:
     tags:
       - v*
   workflow_dispatch:
-    inputs:
-      root_sol:
-        description: "Release Title"
-        required: true
-        default: "SmsForwarder"
+
 
 jobs:
   build:
